@@ -58,16 +58,17 @@ str(ary)
 #ncores    = parallel::detectCores()
 #registerDoParallel(cores = ncores)
 
-##get files for basin,subset
+##file path location
+#FPREFIX   <- paste0(FDIR.in,'/')
+
+##get files for subset
 ##..get file list example line
-#ls.main   <- list.files(path=FPREFIX,pattern=uqsubset,recursive=F)
+#ls.main   <- list.files(path=FPREFIX,pattern='some_unique_id_in_file_name',recursive=F)
 
 ##get predictor vars from list
 ##..subset files (in ls.main) based on pattern
+#find.x    = 'another_unique_id_in_file_name'
 #ls.files  <- ls.main[grepl(pattern=find.x,ls.main)]
-
-##file path location
-#FPREFIX   <- paste0(FDIR.in,'/',datatype,'/')
 
 ##combine fn for parallel loop
 ##..grep pattern
@@ -87,7 +88,4 @@ str(ary)
 
 ##view structure of the array
 #str(ary)
-
-
-
 
