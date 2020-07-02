@@ -18,6 +18,7 @@ VERBOSE         = Sys.getenv("VERBOSE")         #verbose print
 VERBOSE2        = Sys.getenv("VERBOSE2")        #prints for harmonic models
 RUN_GETDATA     = Sys.getenv("RUN_GETDATA")     #process data or skip to quantile selection
 MAKE_PLOTS      = Sys.getenv("MAKE_PLOTS")      #make plots, based on top runs
+FDIR.in         = '/path/to/data/'              #main path to data
 
 x = 1:100
 y = 1:100
