@@ -1,0 +1,14 @@
+
+#griz cluster info
+https://docs.gscc.umt.edu/getting-started/request-access/
+
+#terminal and slurm commands
+https://arc-ts.umich.edu/wp-content/uploads/sites/4/2018/11/Beta-Cheat-Sheet-1.pdf
+
+#miniconda virtual environment
+#..sets up an isolated environment for managing packages/libraries in R and Python
+#..allows user to install software as a pseudo-root user on a cluster
+https://docs.conda.io/en/latest/miniconda.html	
+
+#vim commands
+https://linuxacademy.com/site-content/uploads/2019/05/vim-1.png
